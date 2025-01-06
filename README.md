@@ -15,3 +15,14 @@
 
 4. **Run the App**
    -  Connect a physical Android device or set up an emulator in Android Studio.
+  
+# Summary of Implemented Features
+   1. Incoming Call Simulation
+     The app simulates an incoming call with a prompt that allows users to either accept or decline.
+
+   2. In-Call Controls
+     - Mute/Unmute: Toggle the microphone during a call.
+     - End Call: End the ongoing call.
+     - Switch Camera: Switch between front and rear cameras during a video call.
+     
+
