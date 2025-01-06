@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CallAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    CallConsole(
+                    CallScreen(
                         callViewModel,
                         innerPadding
                     )
@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun CallConsole(callViewModel: CallViewModel, paddingValues: PaddingValues) {
+fun CallScreen(callViewModel: CallViewModel, paddingValues: PaddingValues) {
     val callState =
         callViewModel.callState.collectAsState().value
     val mutedState = callViewModel.micState.collectAsState().value
