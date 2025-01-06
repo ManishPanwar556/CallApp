@@ -20,11 +20,11 @@
 ## Summary of Implemented Features
 1. **Incoming Call Simulation**
    - The app simulates an incoming call with a prompt that allows users to either accept or decline.
-
+2. **In Call View for video/audio call**     
 2. **In-Call Controls**
-   - Mute/Unmute: Toggle the microphone during a call.
+   - Mute/Unmute: Toggle the microphone button.
    - End Call: End the ongoing call.
-   - Switch Camera: Switch between front and rear cameras during a video call.
+   - Switch Camera: toggle the camera button.
 
 ## Steps to run Unit Test cases
 1. **Open ExampleUnitTest file**
