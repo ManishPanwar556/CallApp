@@ -14,7 +14,7 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 
-class CallConsoleViewModelTest {
+class ExampleUnitTest {
 
     private val viewModel = CallViewModel()
     private val testDispatcher = StandardTestDispatcher()
